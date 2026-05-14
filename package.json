@@ -2,14 +2,17 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "backend tutorial",
+  "type":"module",
   "keywords": [
     "backend"
   ],
   "license": "ISC",
   "author": "aarya",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
