@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "backend tutorial",
-  "type":"module",
+  "type": "module",
   "keywords": [
     "backend"
   ],
@@ -13,6 +13,7 @@
     "dev": "nodemon index.js"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.3"
   }
 }
